@@ -15,7 +15,7 @@ test('makes a user object in plain JS from a formData object', function(assert) 
         name: 'Jaime',
         class: 'ninja',
         completed: {},
-        HP: 50,
+        hp: 50,
         gold: 0,
     };
 

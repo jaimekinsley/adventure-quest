@@ -10,21 +10,25 @@
 </head>
 
 <body>
-<header>Login Page</header>
-
+<header><h1>Login Page</h1></header>
+<div id="form-container">
 <form id="user-form">
+
     <label>
         Class
         <input name="class"/>
     </label>
+
     <label>
         Name
         <input name ="name"/>
     </label>
-    <button>Submit</button>
+
+    <button onclick="window.location.href = '../map'">Submit</button>
+
 </form>
 
-
+</div>
 
     <script type="module" src="app.js"></script>
 </body>
